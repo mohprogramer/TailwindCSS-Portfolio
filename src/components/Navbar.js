@@ -3,7 +3,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center p-8 bg-slate-400'>
+        <div className='flex justify-between items-center p-8 bg-slate-400 md:px-20 lg:px-40'>
             <h1 className='font-burtons text-xl'>CallMeMo</h1>
             <ul className='flex justify-between items-center'>
                 <li className='mr-8'><BsFillMoonStarsFill /></li>
