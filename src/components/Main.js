@@ -15,14 +15,16 @@ import web6 from '../assets/web6.png';
 
 
 const Main = () => {
+
+
     return (
-        <div className='p-10 md:px-20 lg:px-40'>
+        <div className='p-10 md:px-20 lg:px-40 dark:bg-gray-900'>
             <div className='text-center'>
                 <h1 className='text-5xl font-medium text-teal-500 mb-5 md:text-6xl'>Mohammad Davodi</h1>
                 <h2 className='text-3xl font-medium mb-3 md:text-4xl'>Front-end developer.</h2>
                 <p className='leading-8 text-gray-800 md:text-xl md:mt-2 max-w-md mx-auto'>Freelancer provider services for programming contect needs. Join me down below and let's get cracking!</p>
             </div>
-            <div className='text-5xl text-gray-600  flex justify-center mt-10 gap-16'>
+            <div className='text-5xl text-gray-600  flex justify-center mt-10 gap-16 dark:text-gray-400'>
                 <AiFillTwitterCircle className='cursor-pointer' />
                 <AiFillLinkedin className='cursor-pointer' />
                 <AiFillYoutube className='cursor-pointer' />
@@ -46,7 +48,7 @@ const Main = () => {
                 </p>
             </div>
             <div className='md:flex gap-5 lg:gap-10'>
-                <div className='text-center shadow-lg rounded-xl p-10 my-10'>
+                <div className='text-center shadow-lg rounded-xl p-10 my-10 dark:bg-white'>
                     <img src={design} alt="desing" className='w-23 h-23 m-auto'/>
                     <h3 className='font-medium text-lg pt-8 pb-5'>Beautiful Designs</h3>
                     <p className='pb-4'>
@@ -59,7 +61,7 @@ const Main = () => {
                     <p className='py-1 text-gray-800'>Figma</p>
                     <p className='py-1 text-gray-800'>Indesign</p>
                 </div>
-                <div className='text-center shadow-lg rounded-xl p-10 my-10'>
+                <div className='text-center shadow-lg rounded-xl p-10 my-10 dark:bg-white'>
                     <img src={code} alt="code" className='w-23 h-23 m-auto'/>
                     <h3 className='font-medium text-lg pt-8 pb-5'>Beautiful Designs</h3>
                     <p className='pb-4'>
@@ -72,7 +74,7 @@ const Main = () => {
                     <p className='py-1 text-gray-800'>Figma</p>
                     <p className='py-1 text-gray-800'>Indesign</p>
                 </div>
-                <div className='text-center shadow-lg rounded-xl p-10 my-10'>
+                <div className='text-center shadow-lg rounded-xl p-10 my-10 dark:bg-white'>
                     <img src={consulting} alt="consulting" className='w-23 h-23 m-auto'/>
                     <h3 className='font-medium text-lg pt-8 pb-5'>Beautiful Designs</h3>
                     <p className='pb-4'>
