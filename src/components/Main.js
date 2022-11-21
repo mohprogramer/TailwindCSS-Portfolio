@@ -20,9 +20,9 @@ const Main = () => {
     return (
         <div className='p-10 md:px-20 lg:px-40 dark:bg-gray-900'>
             <div className='text-center'>
-                <h1 className='text-5xl font-medium text-teal-500 mb-5 md:text-6xl'>Mohammad Davodi</h1>
-                <h2 className='text-3xl font-medium mb-3 md:text-4xl'>Front-end developer.</h2>
-                <p className='leading-8 text-gray-800 md:text-xl md:mt-2 max-w-md mx-auto'>Freelancer provider services for programming contect needs. Join me down below and let's get cracking!</p>
+                <h1 className='text-5xl font-medium text-teal-500 mb-5 md:text-6xl dark:text-teal-400'>Mohammad Davodi</h1>
+                <h2 className='text-3xl font-medium mb-3 md:text-4xl dark:text-white'>Front-end developer.</h2>
+                <p className='leading-8 text-gray-800 md:text-xl md:mt-2 max-w-md mx-auto dark:text-gray-200'>Freelancer provider services for programming contect needs. Join me down below and let's get cracking!</p>
             </div>
             <div className='text-5xl text-gray-600  flex justify-center mt-10 gap-16 dark:text-gray-400'>
                 <AiFillTwitterCircle className='cursor-pointer' />
@@ -33,7 +33,7 @@ const Main = () => {
                 <img src={deved} alt="deved" className='object-cover w-full h-full  '/>
             </div>
             <div >
-                <h3 className='font-medium text-3xl text-gray-600'>Services I offer</h3>
+                <h3 className='font-medium text-3xl text-gray-600 dark:text-white'>Services I offer</h3>
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
                 Since the beginning of my journey as a freelance designer and
                 developer, I've done remote work for
